@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+    background-color: antiquewhite;
+}
+
+.navbar{
+    background-color: aqua;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.navlist{
+    list-style-type: none;
+    background-color: aqua;
+}
+
+.navlist .listitem{
+    display: inline-block;
+    padding: 20px 5px;
+    background-color: aqua;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+}
+
+.navbar a:hover{
+    color: blueviolet;
+}
+
+.logo{
+    height: 60px;
+    background-color: aqua;
+}
+  
+.navbar2{
+    background-color: aqua;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+
+.navlist2{
+    list-style-type: none;
+    background-color: aqua;
+}
+
+.navlist2 .listitem2{
+    display: inline-block;
+    padding: 20px 5px;
+    background-color: aqua;
+}
+
+.navbar2 a{
+    color:white;
+    text-decoration: none;
+    background-color: aqua;
+}
+
+.navbar2 a:hover{
+    color:blueviolet ;
+}
+
+#container{
+    position: relative;
+    min-height: 100vh;
+}
+
+#wrap{
+    padding-bottom: 2.5rem;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem
+}
+
+.novel{
+    text-align: center;
+}
+
+.booklist1 .book1{
+    text-align: center;
+}
+
+.psy{
+    text-align: center;
+}
+
+.booklist2 .book2{
+    text-align: center;
+}
+
+.puzo{
+    text-align: center;
+}
+
+.son{
+    text-align: center;
+}
+
+.doy{
+    text-align: center;
+}
+
+.blist1 .bk1{
+    text-align: center;
+}
+
+.blist2 .bk2{
+    text-align: center;
+}
+
+.blist3 .bk3{
+    text-align: center;
+}
+
+ul.breadcrumb{
+    padding: 10px 16px;
+    list-style: none;
+    background-color: greenyellow;
+}
+
+ul.breadcrumb li{
+    display: inline;
+    font-size: 15px;
+    background-color: greenyellow;
+}
+
+ul.breadcrumb li+li::before{
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+}
+
+ul.breadcrumb li a{
+    color: orangered;
+    text-decoration: none;
+    background-color: greenyellow;
+}
+
+ul.breadcrumb li a:hover{
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.bookimage{
+    height: 210px;
+}
+
+.image{
+    height: 70px;
+}
+
+.images{
+    list-style-type: none;
+}
+
+.bookimage .image{
+    display: inline block;
+}
+
+.column{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.row ::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.price{
+    font-size: 50px;
+}
+
+.button:hover{
+    border: white;
+}
+
+.submit:hover{
+    border: white;
+}
+
+.reset:hover{
+    border:white
+}
+
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="wrap">
+            <header>
+                <nav class="navbar">
+                    <div> 
+                        <img src="book.png" class="logo">             
+                    </div>
+                    <ul class="navlist">
+                        <li class="listitem"><a href="./Home.html">Home</a></li>
+                        <li class="listitem"><a href="./Category.html">Category</a></li>
+                        <li class="listitem"><a href="./Bookdetail.html">Detail</a></li>
+                        <li class="listitem"><a href="./Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <h1>Contact Us</h1>
+                <div id="contactform">
+                    <form>
+                        <div>
+                            <label for="purpose">Contact Purpose</label>
+                            <select name="purpose">
+                                <option>I want to sell books</option>
+                                <option>I want to buy books</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="first-name" size="15" placeholder="Clint" required>
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" size="15" placeholder="Eastwood" required>                           
+                        </div> 
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" placeholder="abc@email.com">
+                        </div>
+                        <div>
+                            <label for="phone">Phone</label>
+                            <input type="tel" name="phone" pattern="[0-9]{10}">
+                        </div>
+                        <div>
+                            <p>How can we contact you?</p>
+                            <label for="bphone">By Phone</label>
+                            <input type="radio" id="bphone" name="bphone" value="">
+                            <label for="bemail">By Email</label>
+                            <input type="radio" id="bemail" name="bphone" value="">             
+                        </div>
+                        <div>
+                            <p>Do you want to receive our weekly newsletter?</p>
+                            <label for="yes">Yes</label>
+                            <input type="radio" id="yes" name="yes" value="" checked>
+                            <label for="no">No</label>
+                            <input type="radio" id="no" name="yes" value="">
+                        </div>
+                        <div>
+                            <label for="note">Note</label><br>
+                            <textarea id="note" name="note" cols="40" rows="5"></textarea>
+                        </div>
+                        <button class="submit" type="submit">Submit</button>
+                        <button class="reset" type="reset">Reset</button>
+                    </form>
+                </div>
+            </main>
+        </div>
+        <footer id="footer">
+            <nav class="navbar2">
+                <ul class="navlist2">
+                    <li class="listitem2"><a href="#">About Us</a></li>
+                    <li class="listitem2"><a href="#">Privacy Policy</a></li>
+                    <li class="listitem2"><a href="#">Terms</a></li>
+                    <li class="listitem2"><a href="#">Copyright</a></li>
+                    <li class="listitem2"><a href="Contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
